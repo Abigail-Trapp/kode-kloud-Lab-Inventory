@@ -7,3 +7,5 @@ Exercise 2: We have reset the /home/bob/playbooks/inventory inventory file, and 
 
 Exercise 3: The web servers are linux based hosts and the db server is a Windows machine. Update the inventory "/home/bob/playbooks/inventory" to add a similar entry for "server4.company.com" host. Find the required details from the table below. 
     Note: For Linux based hosts, use "ansible_ssh_pass parameter and for Windows based hosts, use "ansible_password" parameter. 
+
+Exercise 4: We have updated the "/home/bob/playbooks/inventory" file and added a group called "web_servers" for web servers. Similarly, addd a group called "db_servers" for database servers. 
