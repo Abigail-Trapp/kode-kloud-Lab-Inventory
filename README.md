@@ -9,3 +9,7 @@ Exercise 3: The web servers are linux based hosts and the db server is a Windows
     Note: For Linux based hosts, use "ansible_ssh_pass parameter and for Windows based hosts, use "ansible_password" parameter. 
 
 Exercise 4: We have updated the "/home/bob/playbooks/inventory" file and added a group called "web_servers" for web servers. Similarly, addd a group called "db_servers" for database servers. 
+
+Exercise 5: Let us now create a group of groups. Create a new group called "all_servers" and add the previously created groups "web_servers" and "db_servers".
+
+Exercise 6: Update the "/home/bob/playbooks/inventory file to represent the data given in the below table in Ansible Inventory Format. 
