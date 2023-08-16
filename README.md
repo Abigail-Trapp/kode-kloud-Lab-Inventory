@@ -12,4 +12,17 @@ Exercise 4: We have updated the "/home/bob/playbooks/inventory" file and added a
 
 Exercise 5: Let us now create a group of groups. Create a new group called "all_servers" and add the previously created groups "web_servers" and "db_servers".
 
-Exercise 6: Update the "/home/bob/playbooks/inventory file to represent the data given in the below table in Ansible Inventory Format. 
+Exercise 6: Update the "/home/bob/playbooks/inventory file to represent the data given in the below table in Ansible Inventory Format.
+------------------------------------------------------------ 
+| Server Alias | Server Name | OS | User | Password         |
+------------------------------------------------------------
+| sql_db1 | sql01.xyz.com | Linux | root | Lin$Pass         |
+------------------------------------------------------------
+| sql_db2 | sql02.xyz.com | Linux | root | Lin$Pass         |
+------------------------------------------------------------
+| web_node1 | web01.xyz.com | Win | administrator | Win$Pass|
+------------------------------------------------------------
+| web_node2 | web02.xyz.com | Win | administrator | Win$Pass|
+------------------------------------------------------------
+| web_node3 | web03.xyz.com | Win | administrator | Win$Pass|
+------------------------------------------------------------
